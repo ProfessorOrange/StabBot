@@ -21,11 +21,7 @@ def permute(inp):
             temp += i
         # print(temp)
         a.append(temp)
-    bye = '$Nayeon is hot'
-    for i in a:
-        if i in bye:
-            hi = bye.replace(i, 'Dahyun')
-    print(hi)
+
 
 # Driver code
 permute("$nayeon")
